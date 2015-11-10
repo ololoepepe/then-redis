@@ -1,6 +1,6 @@
 {
-  "name": "then-redis",
-  "version": "1.3.0",
+  "name": "crock-then-redis",
+  "version": "1.0.0",
   "description": "A small, promise-based Redis client",
   "main": "index.js",
   "scripts": {
@@ -8,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mjackson/then-redis.git"
+    "url": "git://github.com/echorohit/then-redis.git"
   },
   "dependencies": {
     "bluebird": "^3.0.5",
     "describe-property": "^1.0.0"
   },
   "devDependencies": {
-    "expect": "^1.1.0",
-    "jshint": "^2.5.10",
-    "mocha": "^2.0.1",
-    "redis": "^0.12.1"
+    "expect": "^1.12.2",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.3",
+    "redis": "^2.3.0"
   },
   "peerDependencies": {
-    "redis": "^0.12.1"
+    "redis": "^2.3.0"
   },
   "keywords": [
     "redis",
@@ -29,6 +29,13 @@
     "promise",
     "promises"
   ],
-  "author": "Michael Jackson",
-  "license": "MIT"
+  "author": "Michael Jackson, Rohit Choudhary",
+  "license": "MIT",
+  "homepage": "https://github.com/echorohit/then-redis#readme",
+  "directories": {
+    "test": "tests"
+  },
+  "bugs": {
+    "url": "https://github.com/echorohit/then-redis/issues"
+  }
 }
