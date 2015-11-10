@@ -3,14 +3,16 @@
 [![dependency status](https://img.shields.io/david/mjackson/then-redis.svg?style=flat-square)](https://david-dm.org/mjackson/then-redis)
 [![code climate](https://img.shields.io/codeclimate/github/mjackson/then-redis.svg?style=flat-square)](https://codeclimate.com/github/mjackson/then-redis)
 
-[then-redis](https://github.com/mjijackson/then-redis) is a fast, promise-based [Redis](http://redis.io) client for [node.js](http://nodejs.org). It's build on top of [node_redis](https://github.com/mranney/node_redis), so it's safe and stable.
+[crock-then-redis](https://github.com/echorohit/then-redis/) forked from  [then-redis](https://github.com/mjijackson/then-redis) is a fast, promise-based [Redis](http://redis.io) client for [node.js](http://nodejs.org). It's build on top of [node_redis](https://github.com/mranney/node_redis), so it's safe and stable.
+
+Reason for forking this and making this a new npm package is [then-redis](https://github.com/mjijackson/then-redis) seemed to be inactive and maintainer was not active
 
 ### Usage
 
 To create a client:
 
 ```js
-var redis = require('then-redis');
+var redis = require('crock-then-redis');
 
 var db = redis.createClient();
 var db = redis.createClient('tcp://localhost:6379');
