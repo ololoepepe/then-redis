@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "bluebird": "^3.0.5",
-    "describe-property": "^1.0.0"
+    "describe-property": "^1.0.0",
+    "redis-commands": "^1.0.2"
   },
   "devDependencies": {
     "expect": "^1.12.2",
